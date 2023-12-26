@@ -1,3 +1,4 @@
+import { Advantages } from 'entities/Advantages';
 import { Header } from 'entities/Header';
 import { Solution } from 'entities/Solution';
 
@@ -8,6 +9,7 @@ const App = () => {
                 <Header />
                 <Solution />
             </div>
+            <Advantages />
         </div>
     )
 }
