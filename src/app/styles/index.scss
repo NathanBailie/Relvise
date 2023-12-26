@@ -6,3 +6,8 @@
 .app {
     font-family: Montserrat, sans-serif;
 }
+
+.container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+}
