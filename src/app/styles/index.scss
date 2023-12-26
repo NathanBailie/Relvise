@@ -11,3 +11,7 @@
     max-width: var(--container-max-width);
     margin: 0 auto;
 }
+
+.main-bg-wrapper {
+    background: url('../../shared/assets/images/bg/main-bg.jpg') center center/cover no-repeat;
+}

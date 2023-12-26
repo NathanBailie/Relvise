@@ -1,0 +1,59 @@
+.Solution {
+    margin-top: 103px;
+    padding: 0 15px 191px;
+
+    h1 {
+        width: min-content;
+        font: var(--font-58-80);
+        font-weight: 800;
+        letter-spacing: 0.2px;
+        color: var(--title-color);
+    }
+    
+    h4 {
+        max-inline-size: 375px;
+        font: var(--font-20-30);
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        color: var(--text-color-gray);
+        margin-top: 35px;
+    }
+    
+    &__buttons {
+        margin-top: 35px;
+        display: flex;
+        gap: 10px;
+        
+        &_get {
+            background: var(--bg-orange);
+            border: none;
+            color: var(--text-color-white)
+        }
+        
+        &_learn {
+            border: 1px solid var(--text-color-dark-turquoise);
+            background: none;
+            color: var(--text-color-dark-turquoise);
+        }
+        
+        &_get,
+        &_learn {
+            padding: 10px 36px;
+            border-radius: 37px; 
+            font: var(--font-14-28);
+            font-weight: 700;
+            letter-spacing: 0.2px;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.9;
+                transform: scale(1.05);
+            }
+
+            &:active {
+                opacity: 1;
+                transform: scale(0.99);
+            }
+        }
+    }
+}
