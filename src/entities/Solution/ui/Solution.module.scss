@@ -11,7 +11,7 @@
     }
     
     h4 {
-        max-inline-size: 375px;
+        max-width: 375px;
         font: var(--font-20-30);
         font-weight: 500;
         letter-spacing: 0.2px;
@@ -22,6 +22,7 @@
     &__buttons {
         margin-top: 35px;
         display: flex;
+        flex-wrap: wrap;
         gap: 10px;
         
         &_get {
@@ -54,6 +55,34 @@
                 opacity: 1;
                 transform: scale(0.99);
             }
+        }
+    }
+}
+@media(width<= 500px) {
+
+    .Solution {
+
+        h1 {
+            font: var(--font-40-57);
+            font-weight: bold;
+        }
+        
+        h4 {
+            font: var(--font-20-30);
+        }
+    }
+}
+@media(width<= 350px) {
+
+    .Solution {
+
+        h1 {
+            font: var(--font-24-32);
+            font-weight: bold;
+        }
+        
+        h4 {
+            font: var(--font-16-24);
         }
     }
 }

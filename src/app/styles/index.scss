@@ -3,6 +3,9 @@
 @import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap';
 
 /* stylelint-disable */
+html {
+    background: var(--html-color);
+}
 .app {
     font-family: Montserrat, sans-serif;
 }

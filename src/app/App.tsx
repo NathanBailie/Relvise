@@ -1,6 +1,7 @@
 import { Advantages } from 'entities/Advantages';
 import { Header } from 'entities/Header';
 import { Solution } from 'entities/Solution';
+import { Statistics } from 'entities/Statistics';
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
                 <Solution />
             </div>
             <Advantages />
+            <Statistics />
         </div>
     )
 }
