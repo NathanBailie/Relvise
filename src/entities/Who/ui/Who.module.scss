@@ -1,0 +1,153 @@
+.Who {
+    padding: 100px 15px;
+    
+    h2 {
+        font: var(--font-40-57);
+        color: var(--title-color);
+        font-weight: 700;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+    
+    p {
+        max-width: 511px;
+        font: var(--font-14-20);
+        color: var(--text-color-gray);
+        font-weight: 500;
+        letter-spacing: 0.2px; 
+        margin: 15px auto 0;
+        text-align: center;
+    }
+    
+    &__flexcontainer {
+        display: flex;
+        gap: 120px;
+        margin-top: 100px;
+    }
+    
+    &__mainimg {
+        width: 100%;
+        max-width: 597px;
+        max-height: 442px;
+    }
+    
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2,
+        p {
+            text-align: left;
+        }
+    }
+    
+    &__textcontainer {
+        display: flex;
+        gap: 20px;
+        margin-top: 50px;
+        
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+    
+    &__textwrapper {
+        display: flex;
+        flex-direction: column;
+        
+        h5 {
+            color: var(--title-color);
+            font: var(--font-16-24);
+            font-weight: 700;
+            letter-spacing: 0.1px;
+        }
+        
+        h6 {
+            font: var(--font-14-24);
+            color: var(--text-color-gray);
+            font-weight: 600;
+            letter-spacing: 0.2px;
+            margin-top: 5px;
+        }
+    }
+}
+@media(width<= 1200px) {
+
+    .Who {
+
+        &__flexcontainer {
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        &__mainimg {
+            max-width: 500px;
+            max-height: 400px;
+        }
+    }
+}
+@media(width<= 900px) {
+
+    .Who {
+
+        h2 {
+            font: var(--font-24-32);
+            font-weight: bold;
+        }
+        
+        p {
+            font: var(--font-14-20);
+        }
+
+        &__flexcontainer {
+            gap: 40px;
+            margin-top: 25px;
+        }
+
+        &__mainimg {
+            max-width: 320px;
+            max-height: 250px;
+        }
+        
+        &__textcontainer {
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        &__textwrapper {
+            
+            h5 {
+                font: var(--font-14-24);
+                font-weight: 700;
+            }
+            
+            h6 {
+                font: var(--font-14-20);
+            }
+        }
+    }
+}
+@media(width<= 750px) {
+
+    .Who {
+
+        &__flexcontainer {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        &__textcontainer {
+            margin: 20px auto;
+        }
+        
+        h2,
+        p,
+        h5,
+        h6 {
+            text-align: center;
+        }
+    }
+}

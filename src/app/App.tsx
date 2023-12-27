@@ -3,6 +3,7 @@ import { Advice } from 'entities/Advice';
 import { Header } from 'entities/Header';
 import { Solution } from 'entities/Solution';
 import { Statistics } from 'entities/Statistics';
+import { Who } from 'entities/Who';
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Advantages />
             <Statistics />
             <Advice />
+            <Who />
         </div>
     )
 }
