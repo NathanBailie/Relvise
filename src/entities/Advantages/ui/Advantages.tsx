@@ -42,7 +42,8 @@ export const Advantages = memo(() => {
                 <p>{text}</p>
             </div>
         )
-    })
+    });
+
     return (
         <section className={classNames(cls.Advantages, {}, [])}>
             <div className={classNames(cls.Advantages__container, {}, ['container'])}>

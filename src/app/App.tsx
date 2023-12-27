@@ -1,4 +1,5 @@
 import { Advantages } from 'entities/Advantages';
+import { Advice } from 'entities/Advice';
 import { Header } from 'entities/Header';
 import { Solution } from 'entities/Solution';
 import { Statistics } from 'entities/Statistics';
@@ -12,6 +13,7 @@ const App = () => {
             </div>
             <Advantages />
             <Statistics />
+            <Advice />
         </div>
     )
 }
