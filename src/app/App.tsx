@@ -4,6 +4,7 @@ import { Header } from 'entities/Header';
 import { Logos } from 'entities/Logos';
 import { Solution } from 'entities/Solution';
 import { Statistics } from 'entities/Statistics';
+import { Subscribe } from 'entities/Subscribe';
 import { Who } from 'entities/Who';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
             <Advice />
             <Who />
             <Logos />
+            <Subscribe />
         </div>
     )
 }
