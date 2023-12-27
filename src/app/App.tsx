@@ -1,5 +1,6 @@
 import { Advantages } from 'entities/Advantages';
 import { Advice } from 'entities/Advice';
+import { Contact } from 'entities/Contact';
 import { Header } from 'entities/Header';
 import { Logos } from 'entities/Logos';
 import { Solution } from 'entities/Solution';
@@ -22,6 +23,7 @@ const App = () => {
             <Logos />
             <Subscribe />
             <Support />
+            <Contact />
         </div>
     )
 }
