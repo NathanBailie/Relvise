@@ -1,0 +1,45 @@
+.Socials {
+    padding: 25px 0;
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    h6 {
+        color: var(--text-color-gray);
+        font: var(--font-14-24);
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+    
+    &__socials {
+        display: flex;
+        gap: 20px;
+        
+        img {
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+    
+}
+@media(width<= 500px) {
+
+    .Socials {
+        
+        h6 {
+            text-align: center;
+        }
+
+        &__container {
+            flex-direction: column;
+            gap: 25px;
+        }
+    }
+}

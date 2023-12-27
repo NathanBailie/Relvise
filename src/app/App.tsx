@@ -4,6 +4,7 @@ import { Contact } from 'entities/Contact';
 import { Footer } from 'entities/Footer';
 import { Header } from 'entities/Header';
 import { Logos } from 'entities/Logos';
+import { Socials } from 'entities/Socials';
 import { Solution } from 'entities/Solution';
 import { Statistics } from 'entities/Statistics';
 import { Subscribe } from 'entities/Subscribe';
@@ -26,6 +27,7 @@ const App = () => {
             <Support />
             <Contact />
             <Footer />
+            <Socials />
         </div>
     )
 }
