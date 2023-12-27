@@ -114,3 +114,12 @@
         }
     }
 }
+@media(width<= 350px) {
+
+    .Support {
+
+        &__item {
+            padding: 30px 20px;
+        }
+    }
+}
