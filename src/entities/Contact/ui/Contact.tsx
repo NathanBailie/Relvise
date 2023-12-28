@@ -15,7 +15,7 @@ export const Contact = memo(() => {
                     </p>
                 </div>
 
-                <button>Contact Us</button>
+                <button className={classNames('', {}, ['button'])}>Contact Us</button>
             </div>
         </section>
     );

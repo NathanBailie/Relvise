@@ -21,10 +21,10 @@ export const Advice = memo(() => {
     return (
         <section className={classNames(cls.Advice, {}, [])}>
             <div className={classNames(cls.Advice__container, {}, ['container'])}>
-                <h2 className={cls.Advice__title}>
+                <h2 className={classNames(cls.Advice__title, {}, ['title'])}>
                     Practice Advice
                 </h2>
-                <h5 className={cls.Advice__subtitle}>
+                <h5 className={classNames(cls.Advice__subtitle, {}, ['text'])}>
                     Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics
                 </h5>

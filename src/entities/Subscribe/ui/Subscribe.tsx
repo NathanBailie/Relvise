@@ -14,7 +14,7 @@ export const Subscribe = memo(() => {
 
                     <div className={cls.Subscribe__inputWrapper}>
                         <input type="text" placeholder='Your Email' />
-                        <button>Subscribe</button>
+                        <button className={classNames('', {}, ['button'])}>Subscribe</button>
                     </div>
                 </div>
             </div>

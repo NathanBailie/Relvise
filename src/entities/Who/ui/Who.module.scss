@@ -2,7 +2,7 @@
     padding: 100px 0;
     background: var(--color-white);
     
-    h2 {
+    &__title {
         font: var(--font-40-57);
         color: var(--color-dark-ultramarine);
         font-weight: 700;
@@ -10,7 +10,7 @@
         text-align: center;
     }
     
-    p {
+    &__subtitle {
         max-width: 511px;
         font: var(--font-14-20);
         color: var(--color-gray);

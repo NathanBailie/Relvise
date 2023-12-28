@@ -12,18 +12,19 @@ export const Support = memo(() => {
                 <img src={img} alt={alt} />
                 <p>{emails}</p>
                 <h5>{text}</h5>
-                <button>{btnText}</button>
+                <button className={classNames('', {}, ['button'])}>{btnText}</button>
             </div>
         )
-    })
+    });
+
     return (
         <section className={classNames(cls.Support, {}, [])}>
             <div className={classNames(cls.Support__container, {}, ['container'])}>
-                <h2 className={cls.Support__title}>
+                <h2 className={classNames(cls.Support__title, {}, ['title'])}>
                     Get In Touch
                 </h2>
 
-                <p className={cls.Support__subtitle}>
+                <p className={classNames(cls.Support__subtitle, {}, ['text'])}>
                     Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics
                 </p>

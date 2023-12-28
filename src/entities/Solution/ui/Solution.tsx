@@ -16,11 +16,11 @@ export const Solution = memo(() => {
                 </h4>
 
                 <div className={cls.Solution__buttons}>
-                    <button className={cls.Solution__buttons_get}>
+                    <button className={classNames(cls.Solution__buttons_get, {}, ['button'])}>
                         Get Quote Now
                     </button>
 
-                    <button className={cls.Solution__buttons_learn}>
+                    <button className={classNames(cls.Solution__buttons_learn, {}, ['button'])}>
                         Learn More
                     </button>
                 </div>

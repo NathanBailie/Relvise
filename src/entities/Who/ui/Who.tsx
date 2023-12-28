@@ -22,10 +22,10 @@ export const Who = memo(() => {
     return (
         <section className={classNames(cls.Who, {}, [])}>
             <div className={classNames(cls.Who__container, {}, ['container'])}>
-                <h2>
+                <h2 className={classNames(cls.Who__title, {}, ['title'])}>
                     Who We Are
                 </h2>
-                <p>
+                <p className={classNames(cls.Who__subtitle, {}, ['text'])}>
                     Problems trying to resolve the conflict between the two major realms
                     of Classical physics: Newtonian mechanics
                 </p>
@@ -34,10 +34,10 @@ export const Who = memo(() => {
                     <img src={photo} alt="photo" className={cls.Who__mainimg} />
 
                     <div className={cls.Who__descr}>
-                        <h2>
+                        <h2 className={classNames('', {}, ['title'])}>
                             Most trusted in our field
                         </h2>
-                        <p>
+                        <p className={classNames('', {}, ['text'])}>
                             Most calendars are designed for teams. Slate
                             is designed for freelancers who want a
                             simple way to plan their schedule.

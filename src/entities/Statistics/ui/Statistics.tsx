@@ -19,10 +19,10 @@ export const Statistics = memo(() => {
     return (
         <section className={classNames(cls.Statistics, {}, [])}>
             <div className={classNames(cls.Statistics__container, {}, ['container'])}>
-                <h2 className={cls.Statistics__title}>
+                <h2 className={classNames(cls.Statistics__title, {}, ['title'])}>
                     Designing Better Experience
                 </h2>
-                <h5 className={cls.Statistics__subtitle}>
+                <h5 className={classNames(cls.Statistics__subtitle, {}, ['text'])}>
                     Problems trying to resolve the conflict between the two major realms
                     of Classical physics: Newtonian mechanics
                 </h5>
