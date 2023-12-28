@@ -12,7 +12,7 @@
         padding: 35px 40px;
         display: flex;
         flex-direction: column;
-        background: var(--bg-white);
+        background: var(--color-white);
 
         img {
             max-width: 50px;
@@ -21,7 +21,7 @@
         }
         
         h3 {
-            color: var(--title-color);
+            color: var(--color-dark-ultramarine);
             font: var(--font-24-32);
             font-style: normal;
             font-weight: 700;
@@ -34,20 +34,20 @@
             font-style: normal;
             font-weight: 500;
             letter-spacing: 0.2px;
-            color: var(--text-color-gray);
+            color: var(--color-gray);
             margin-top: 10px;
         }
         
                 
         &:nth-child(3) {
-            background: var(--text-color-dark-turquoise);
+            background: var(--color-dark-turquoise);
 
             h3 {
-                color: var(--text-color-white);
+                color: var(--color-white);
             }
             
             p {
-                color: var(--text-color-white);
+                color: var(--color-white);
                 
             }
         }

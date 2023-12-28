@@ -1,6 +1,6 @@
 .Footer {
     padding: 50px 0;
-    background: var(--title-color);
+    background: var(--color-dark-ultramarine);
 
     &__container {
         display: grid;
@@ -15,13 +15,13 @@
 
         h5,
         a {
-            color: var(--text-color-white);
+            color: var(--color-white);
             overflow-wrap: break-word;
             width: calc(100% - 10px - 24px);
         }
 
         h5 {
-            color: var(--text-color-white);
+            color: var(--color-white);
             font: var(--font-16-24);
             font-weight: 700;
             letter-spacing: 0.1px;

@@ -1,10 +1,10 @@
 .Who {
     padding: 100px 0;
-    background: var(--bg-white);
+    background: var(--color-white);
     
     h2 {
         font: var(--font-40-57);
-        color: var(--title-color);
+        color: var(--color-dark-ultramarine);
         font-weight: 700;
         letter-spacing: 0.2px;
         text-align: center;
@@ -13,7 +13,7 @@
     p {
         max-width: 511px;
         font: var(--font-14-20);
-        color: var(--text-color-gray);
+        color: var(--color-gray);
         font-weight: 500;
         letter-spacing: 0.2px; 
         margin: 15px auto 0;
@@ -59,7 +59,7 @@
         flex-direction: column;
         
         h5 {
-            color: var(--title-color);
+            color: var(--color-dark-ultramarine);
             font: var(--font-16-24);
             font-weight: 700;
             letter-spacing: 0.1px;
@@ -67,7 +67,7 @@
         
         h6 {
             font: var(--font-14-24);
-            color: var(--text-color-gray);
+            color: var(--color-gray);
             font-weight: 600;
             letter-spacing: 0.2px;
             margin-top: 5px;
