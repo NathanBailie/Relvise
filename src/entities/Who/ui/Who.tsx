@@ -1,34 +1,11 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { memo } from 'react';
-import cls from './Who.module.scss';
+import { whoData } from '../lib/whoData';
 import photo from 'shared/assets/images/photo.jpg';
-import people from 'shared/assets/images/icons/people.png';
-import settings from 'shared/assets/images/icons/settings.png';
-
-interface Item {
-    img: string
-    alt: string
-    main: string
-    text: string
-}
-
-const data: Item[] = [
-    {
-        img: people,
-        alt: 'people',
-        main: 'the quick fox jumps over the lazy dog',
-        text: 'Things on a very small scale...'
-    },
-    {
-        img: settings,
-        alt: 'settings',
-        main: 'the quick fox jumps over the lazy dog',
-        text: 'Things on a very small scale...'
-    }
-];
+import cls from './Who.module.scss';
 
 export const Who = memo(() => {
-    const subcontent = data.map((item, id) => {
+    const subcontent = whoData.map((item, id) => {
         const { img, alt, main, text } = item;
 
         return (

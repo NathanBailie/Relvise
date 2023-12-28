@@ -1,8 +1,19 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { memo } from 'react';
+import { headerData } from '../lib/headerData';
 import cls from './Header.module.scss';
 
 export const Header = memo(() => {
+    const links = headerData.map((item, id) => {
+        const { href, name } = item;
+
+        return (
+            <li key={id}>
+                <a href={href}>{name}</a>
+            </li>
+        );
+    });
+
     return (
         <header className={classNames(cls.Header, {}, [])}>
             <div className={classNames(cls.Header__container, {}, ['container'])}>
@@ -12,18 +23,7 @@ export const Header = memo(() => {
 
                 <nav className={cls.Header__menu}>
                     <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Product</a>
-                        </li>
-                        <li>
-                            <a href="#">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
+                        {links}
                     </ul>
                 </nav>
             </div>
