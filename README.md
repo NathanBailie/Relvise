@@ -3,8 +3,6 @@
 ## Description
 Responsive design of a single-page website
 
-### Here you can try this project on the website - [Relvise](https://nathanbailie.github.io/Relvise/ "Click to visit")
-
 ## Screenshots
 <img src="https://github.com/NathanBailie/Relvise/raw/main/screenshots/screenshot1.png" width="900" />
 <img src="https://github.com/NathanBailie/Relvise/raw/main/screenshots/screenshot2.png" width="400" />
